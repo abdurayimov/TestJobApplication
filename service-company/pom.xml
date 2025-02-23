@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>tech.edex</groupId>
+        <artifactId>microservices-project</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <artifactId>service-company</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Company Service</name>
+    <url/>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>service-company</finalName>
+        <directory>${project.basedir}/target</directory>
+    </build>
+</project>
